@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
 }
-apply plugin: 'com.android.application'
+
 android {
     namespace 'com.aaronman.arrow'
     compileSdk 33
@@ -27,17 +27,8 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
+
 dependencies {
-    // ArCore
-    implementation 'com.google.ar:core:1.36.0'
-
-    // obj reader
-    implementation 'de.javagl:obj:0.2.1'
-
-    // Glide - An image loading and caching library for Android
-    // https://github.com/bumptech/glide
-    implementation 'com.github.bumptech.glide:glide:4.6.1'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
