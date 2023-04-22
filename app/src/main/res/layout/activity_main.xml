@@ -6,15 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <FrameLayout
-        android:id="@+id/camera_container"
-        android:layout_width="match_parent"
-        android:layout_height="770dp"
-        android:background="@color/gray"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/fd_activity_surface_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:show_fps="true"/>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
