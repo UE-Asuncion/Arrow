@@ -10,20 +10,11 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+
+import org.opencv.*;
+
+
 public class MainActivity extends AppCompatActivity {
-//    static{
-//
-//        if(OpenCVLoader.initDebug()){
-//
-//            Log.d(“Check”,”OpenCv configured successfully”);
-//
-//        } else{
-//
-//            Log.d(“Check”,”OpenCv doesn’t configured successfully”);
-//
-//        }
-//
-//    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -13,4 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Arrow"
+def opencvsdk='opencv'
 include ':app'
+include ':opencv'
+project(':opencv').projectDir = new File(opencvsdk + '/')
