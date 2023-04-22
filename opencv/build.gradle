@@ -87,12 +87,12 @@
 //       }
 //   }
 //
-plugins {
-    id 'org.jetbrains.kotlin.android' version '1.7.10'
-}
+//plugins {
+//    id 'org.jetbrains.kotlin.android' version '1.7.10'
+//}
 
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
+//apply plugin: 'kotlin-android'
 
 def openCVersionName = "4.7.0-dev"
 def openCVersionCode = ((4 * 100 + 7) * 100 + 0) * 10 + 0
